@@ -1,0 +1,22 @@
+.NameInput input,
+.NameInput button {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.NameInput input:focus {
+  border: 1px solid #2196F3;
+}
+
+.NameInput button {
+  cursor: pointer;
+}
+
+.NameInput button:hover {
+  background: #eee;
+  border: 1px solid #aaa;
+}

@@ -1,0 +1,19 @@
+.List {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+
+.List-entry {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.List-entry-empty {
+  font-style: italic;
+  color: #aaa;
+}
+
+.List-entry:last-child {
+  border-bottom: none;
+}

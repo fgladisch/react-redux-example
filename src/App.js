@@ -1,0 +1,26 @@
+import React, { Component } from 'react'
+import logo from './logo.svg'
+import './App.css'
+
+import { List, NameInput } from './components'
+
+export default class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <div className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-header-title">React + Redux</h1>
+        </div>
+        <div className="App-container">
+
+          <NameInput />
+
+          <h2>List of names</h2>
+          <List />
+
+        </div>
+      </div>
+    )
+  }
+}
