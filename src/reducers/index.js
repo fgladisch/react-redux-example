@@ -1,8 +1,7 @@
 import { combineReducers } from 'redux'
 
-import { nameReducer } from './NameReducer';
+import { toDoReducer } from './ToDoReducer';
 
 export const reducers = combineReducers({
-  names: nameReducer
+  toDos: toDoReducer
 })
-

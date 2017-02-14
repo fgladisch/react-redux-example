@@ -1,4 +1,4 @@
-import { List } from './NameList/NameList'
-import { NameInput } from './NameInput/NameInput'
+import { ToDoList } from './ToDoList/ToDoList'
+import { ToDoInput } from './ToDoInput/ToDoInput'
 
-export { List, NameInput }
+export { ToDoList, ToDoInput }

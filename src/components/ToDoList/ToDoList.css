@@ -1,0 +1,30 @@
+.ToDoList {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 5px 0px;
+  overflow: hidden;
+}
+
+.ToDoList-entry,
+.ToDoList-entry-empty {
+  padding: 5px;
+}
+
+.ToDoList-entry {
+  border-bottom: 1px solid #ddd;
+}
+
+.ToDoList-entry:hover {
+  background: #f6f6f6;
+  cursor: pointer;
+  color: #F44336;
+}
+
+.ToDoList-entry-empty {
+  font-style: italic;
+  color: #aaa;
+}
+
+.ToDoList-entry:last-child {
+  border-bottom: none;
+}

@@ -1,5 +1,5 @@
-.NameInput input,
-.NameInput button {
+.ToDoInput input,
+.ToDoInput button {
   width: 100%;
   padding: 5px;
   margin: 5px 0px;
@@ -8,15 +8,15 @@
   background: #fff;
 }
 
-.NameInput input:focus {
+.ToDoInput input:focus {
   border: 1px solid #2196F3;
 }
 
-.NameInput button {
+.ToDoInput button {
   cursor: pointer;
 }
 
-.NameInput button:hover {
+.ToDoInput button:hover {
   background: #eee;
   border: 1px solid #aaa;
 }
