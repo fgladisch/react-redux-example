@@ -1,14 +1,13 @@
 export const toDoReducer = (state = {
-  input: '',
   list: []
 }, action) => {
 
   console.log(action)
 
-  if (action.type === 'ADD' && state.input && state.list.indexOf(state.input) < 0) {
+  if (action.type === 'ADD' && state.list.indexOf(action.payload) < 0) {
     return {
       ...state,
-      list: state.list.concat(state.input)
+      list: state.list.concat(action.payload)
     }
   }
 
@@ -18,13 +17,6 @@ export const toDoReducer = (state = {
       list: state.list.filter(value => {
         return value !== action.payload
       })
-    }
-  }
-
-  if (action.type === 'INPUT') {
-    return {
-      ...state,
-      input: action.payload
     }
   }
 

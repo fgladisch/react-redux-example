@@ -4,8 +4,7 @@ import { reducers } from './reducers'
 
 export const store = createStore(reducers, {
   toDos: {
-    list: [],
-    input: ''
+    list: []
   }
 })
 

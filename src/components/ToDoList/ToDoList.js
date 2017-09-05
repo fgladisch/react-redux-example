@@ -11,14 +11,14 @@ class ToDoListComponent extends Component {
     this.remove = this.remove.bind(this)
   }
 
-  remove(name) {
-    toDos.removeToDo(name)
+  remove(text) {
+    toDos.removeToDo(text)
   }
 
   generateEntries(toDos) {
     if (toDos.length > 0) {
-      return toDos.map(name =>
-        <div className="ToDoList-entry" onClick={() => this.remove(name)} key={name}>{name}</div>
+      return toDos.map(text =>
+        <div className="ToDoList-entry" onClick={() => this.remove(text)} key={text}>{text}</div>
       )
     }
     return (<div className="ToDoList-entry-empty">Empty</div>)
